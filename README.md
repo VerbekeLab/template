@@ -47,6 +47,10 @@ Here's the general structure with some additional info:
     - `notebooks/`  
     *Some love them, some hate them. Either way, do not just dump them in your root directory, but store them in their dedicated folder.*  
     *Depending on your project, you can create sub-folders, but try to stay as lean as possible.*  
+    - `queries/`  
+    *(optional) You can store your queries (e.g. SQL) in this folder.*
+    *They do not belong under* `data/`.
+    *Keeping them in a dedicated query-folder allows for easy maintainability.*
     - `res/`  
     *The folder to store your results. Keep it neat and do not save them under your root directory.*
     - `scripts/`  
